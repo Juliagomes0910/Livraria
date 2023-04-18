@@ -1,0 +1,113 @@
+/* DUCUMENTO CSS */
+
+Body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'calibri',sans-serif;
+    background-color: #ede9e4;
+    color: #A9B4FF;
+} 
+
+header{
+	background-color: #241571  ;
+	height: 180px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	font-family: 'cardo',serif;
+	align-items: center;
+}
+
+header figure {
+	width: 100px;
+	height: 100px;
+	background-color: #696969;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
+header h1{
+	color: #d0d2e7 ;
+}
+
+main {
+	min-height: 900px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center ;
+	padding: 20px;
+	flex-wrap: wrap;
+	background-color: #FDF5E6;
+}
+
+.boxlivro {
+	width: 480px;
+	height: 300px;
+	background-color:#241571 ;
+	border-radius: 10px;
+	padding: 10px ;
+	margin: 10px 10px 10px 50px;
+	display: flex;
+}
+
+.boxlivro:hover {
+	box-shadow: 6px 6px 6px #a4a4a4;
+}
+
+.boxlivro figure {
+	width: 200px;
+	height: 200px;
+	background-color: #e6e6e6;
+	margin: 0 20px 0 0 ;
+	padding: 0;
+	border: 1px solid black;
+}
+
+.boxlivro p {
+
+}
+
+.boxlivro span {
+	font-size: 30px;
+	font-weight: 900;
+	margin: 0;
+	padding: 0;	
+}
+
+.meu-botao {
+    background-color: #2b88d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.botao {
+    background-color: #2b88d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+footer {
+    background-color: #241571 ;
+	height:70px ;
+	padding-top:10px ;
+	text-align: center;
+	display: flex;
+	justify-content:left;
+}
+
+footer figure{
+	width: 70px;
+	height: 70px;
+	margin:0 30px 0 50px;
+	padding: 0;
+}
+ 
